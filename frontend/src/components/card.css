@@ -1,0 +1,88 @@
+label {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.card-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card-input-cvv {
+  width: 160px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card-button-container {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-button {
+  padding: 10px 10px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.card-button.add {
+  background-color: #4741de;
+  color: white;
+}
+
+.card-button.cancel {
+  background-color: #efefef;
+  color: rgb(252, 54, 54);
+}
+
+/* Estilos de la tarjeta desplegada */
+.card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card-item {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-item p {
+  margin: 5px 0;
+}
